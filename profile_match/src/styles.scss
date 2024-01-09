@@ -1,0 +1,25 @@
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+section{
+    position: relative;
+}
+mat-nav-list.list-horizontal {
+    padding: 0;
+    .mat-list-item {
+      display: inline-block !important;
+      height: auto !important;
+      width: auto !important;
+    }
+  }
+
+  .mat-toolbar-row, .mat-toolbar-single-row{
+    height: unset !important;
+  }
+
+  .mat-list-item .mat-list-item-content {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+

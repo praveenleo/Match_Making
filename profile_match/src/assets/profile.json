@@ -1,0 +1,456 @@
+{
+    "matched": 2487,
+    "yetToView": 1852,
+    "viewed": 635,
+    "data": {
+            "allMatcheslist": [
+                {
+                    "id": 1,
+                    "name": "Aadhira",
+                    "age": 25,
+                    "height": "5'5",
+                    "degree": "BE",
+                    "caste": "Chettiar",
+                    "city": "Cuddalore",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 2,
+                    "name": "Adya",
+                    "age": 25,
+                    "height": "5'5",
+                    "degree": "MBA",
+                    "caste": "Chettiar",
+                    "city": "Cuddalore",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": true
+                },
+                {
+                    "id": 3,
+                    "name": "Aasha",
+                    "age": 23,
+                    "height": "5'4",
+                    "degree": "B.Tech",
+                    "caste": "Chettiar",
+                    "city": "Salem",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": true
+                },
+                {
+                    "id": 4,
+                    "name": "Janusha",
+                    "age": 24,
+                    "height": "5'3",
+                    "degree": "BCA",
+                    "caste": "Chettiar",
+                    "city": "Chennai",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 5,
+                    "name": "Jaseetha",
+                    "age": 26,
+                    "height": "5'3",
+                    "degree": "B.Tech",
+                    "caste": "Chettiar",
+                    "city": "Erode",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": true
+                },
+                {
+                    "id": 6,
+                    "name": "Lakshy",
+                    "age": 27,
+                    "height": "5'6",
+                    "degree": "M.Tech",
+                    "caste": "Chettiar",
+                    "city": "Chennai",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 7,
+                    "name": "Lalitha",
+                    "age": 26,
+                    "height": "5'2",
+                    "degree": "BCA",
+                    "caste": "Chettiar",
+                    "city": "Cuddalore",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 8,
+                    "name": "Laniya",
+                    "age": 26,
+                    "height": "5'2",
+                    "degree": "BCA",
+                    "caste": "Chettiar",
+                    "city": "Cuddalore",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 9,
+                    "name": "Lavli",
+                    "age": 26,
+                    "height": "5'2",
+                    "degree": "BCA",
+                    "caste": "Chettiar",
+                    "city": "Cuddalore",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": true
+                },
+                {
+                    "id": 10,
+                    "name": "Leena",
+                    "age": 26,
+                    "height": "5'2",
+                    "degree": "BCA",
+                    "caste": "Chettiar",
+                    "city": "Cuddalore",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                }
+            ],
+            "newMatchesList": [
+                {
+                    "id": 1,
+                    "name": "Luxmi",
+                    "age": 30,
+                    "height": "5'3",
+                    "degree": "M.phil",
+                    "caste": "Chettiar",
+                    "city": "Chennai",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": true
+                },
+                {
+                    "id": 2,
+                    "name": "Naadiya",
+                    "age": 26,
+                    "height": "5'7",
+                    "degree": "MBA",
+                    "caste": "Chettiar",
+                    "city": "Madurai",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": true
+                },
+                {
+                    "id": 3,
+                    "name": "Keerthiga",
+                    "age": 23,
+                    "height": "5'5",
+                    "degree": "B.Tech",
+                    "caste": "Chettiar",
+                    "city": "Thirupur",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 4,
+                    "name": "Srimathi",
+                    "age": 26,
+                    "height": "5'3",
+                    "degree": "BCA",
+                    "caste": "Chettiar",
+                    "city": "Villupuram",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 5,
+                    "name": "Divya",
+                    "age": 26,
+                    "height": "5'6",
+                    "degree": "B.Tech",
+                    "caste": "Chettiar",
+                    "city": "Kanchipuram",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": true
+                },
+                {
+                    "id": 6,
+                    "name": "Priya",
+                    "age": 27,
+                    "height": "5'6",
+                    "degree": "B.Tech",
+                    "caste": "Chettiar",
+                    "city": "Kovai",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": true
+                },
+                {
+                    "id": 7,
+                    "name": "Sangeetha",
+                    "age": 28,
+                    "height": "5'2",
+                    "degree": "B.Sc",
+                    "caste": "Chettiar",
+                    "city": "Cuddalore",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 8,
+                    "name": "Anushya",
+                    "age": 35,
+                    "height": "5'4",
+                    "degree": "BCA",
+                    "caste": "Chettiar",
+                    "city": "Kovai",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 9,
+                    "name": "Priya",
+                    "age": 24,
+                    "height": "5'3",
+                    "degree": "BCA",
+                    "caste": "Chettiar",
+                    "city": "Trichy",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 10,
+                    "name": "Suja",
+                    "age": 26,
+                    "height": "5'4",
+                    "degree": "BCA",
+                    "caste": "Chettiar",
+                    "city": "Cuddalore",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": true
+                }
+            ],
+            "premiumList": [
+                {
+                    "id": 1,
+                    "name": "Kavina",
+                    "age": 22,
+                    "height": "5'5",
+                    "degree": "BA",
+                    "caste": "Chettiar",
+                    "city": "Cuddalore",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": true
+                },
+                {
+                    "id": 2,
+                    "name": "Priya",
+                    "age": 25,
+                    "height": "5'5",
+                    "degree": "MBA",
+                    "caste": "Chettiar",
+                    "city": "Kovai",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": true
+                },
+                {
+                    "id": 3,
+                    "name": "Mounika",
+                    "age": 23,
+                    "height": "5'4",
+                    "degree": "B.Tech",
+                    "caste": "Chettiar",
+                    "city": "Salem",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 4,
+                    "name": "Chandirka",
+                    "age": 24,
+                    "height": "5'3",
+                    "degree": "BCA",
+                    "caste": "Chettiar",
+                    "city": "Chennai",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 5,
+                    "name": "Toshika",
+                    "age": 26,
+                    "height": "5'3",
+                    "degree": "B.Tech",
+                    "caste": "Chettiar",
+                    "city": "Erode",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": true
+                },
+                {
+                    "id": 6,
+                    "name": "Ramya",
+                    "age": 27,
+                    "height": "5'6",
+                    "degree": "M.Tech",
+                    "caste": "Chettiar",
+                    "city": "Chennai",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 7,
+                    "name": "Sangeetha",
+                    "age": 26,
+                    "height": "5'2",
+                    "degree": "BCA",
+                    "caste": "Chettiar",
+                    "city": "Villupuram",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": true
+                },
+                {
+                    "id": 8,
+                    "name": "Mayu",
+                    "age": 26,
+                    "height": "5'2",
+                    "degree": "BCA",
+                    "caste": "Chettiar",
+                    "city": "Cuddalore",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 9,
+                    "name": "Bavya Sree",
+                    "age": 26,
+                    "height": "5'2",
+                    "degree": "BCA",
+                    "caste": "Chettiar",
+                    "city": "Chennai",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 10,
+                    "name": "Bavya",
+                    "age": 26,
+                    "height": "5'2",
+                    "degree": "BCA",
+                    "caste": "Chettiar",
+                    "city": "Cuddalore",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": true
+                }
+            ],
+            "mutualMatches": [
+                {
+                    "id": 1,
+                    "name": "Pavithra",
+                    "age": 25,
+                    "height": "5'5",
+                    "degree": "BE",
+                    "caste": "Chettiar",
+                    "city": "Cuddalore",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": true
+                },
+                {
+                    "id": 2,
+                    "name": "Thulasi",
+                    "age": 25,
+                    "height": "5'5",
+                    "degree": "MBA",
+                    "caste": "Chettiar",
+                    "city": "Cuddalore",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 3,
+                    "name": "krishnaveni",
+                    "age": 23,
+                    "height": "5'4",
+                    "degree": "B.Tech",
+                    "caste": "Chettiar",
+                    "city": "Salem",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": true
+                },
+                {
+                    "id": 4,
+                    "name": "Aadhira",
+                    "age": 24,
+                    "height": "5'3",
+                    "degree": "BCA",
+                    "caste": "Chettiar",
+                    "city": "Chennai",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 5,
+                    "name": "Pavithra",
+                    "age": 26,
+                    "height": "5'3",
+                    "degree": "B.Tech",
+                    "caste": "Chettiar",
+                    "city": "Erode",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": true
+                },
+                {
+                    "id": 6,
+                    "name": "Sangeetha",
+                    "age": 27,
+                    "height": "5'6",
+                    "degree": "M.Tech",
+                    "caste": "Chettiar",
+                    "city": "Trichy",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 7,
+                    "name": "Lavanya",
+                    "age": 26,
+                    "height": "5'2",
+                    "degree": "BCA",
+                    "caste": "Chettiar",
+                    "city": "Cuddalore",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 8,
+                    "name": "Mounika",
+                    "age": 26,
+                    "height": "5'2",
+                    "degree": "BCA",
+                    "caste": "Chettiar",
+                    "city": "Villupuram",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": true
+                },
+                {
+                    "id": 9,
+                    "name": "Sheela",
+                    "age": 26,
+                    "height": "5'2",
+                    "degree": "BCA",
+                    "caste": "Chettiar",
+                    "city": "Chengalpat",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                },
+                {
+                    "id": 10,
+                    "name": "Bavya",
+                    "age": 28,
+                    "height": "5'2",
+                    "degree": "BCA",
+                    "caste": "Chettiar",
+                    "city": "Chennai",
+                    "state": "Tamil Nadu",
+                    "isPrimeUser": false
+                }
+            ]
+        }
+   
+}

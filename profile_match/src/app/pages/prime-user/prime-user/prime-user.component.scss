@@ -1,0 +1,88 @@
+.bgprime {
+  background: #64447d;
+}
+.prime {
+  color: #fff;
+}
+.prime h4 {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.prime li {
+  list-style-type: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.prime p {
+  text-align: right;
+  font-size: 12px;
+  padding-right: 17px;
+}
+.prime h5 {
+  margin-left: 15px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.prime li::before {
+  content: url("../../../../assets/images/star.png");
+  position: absolute;
+  left: 18px;
+}
+.prime img {
+  float: right;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.regular {
+  background: #fff;
+  padding: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.regular button {
+  background-color: #ff9902;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.regular h5 {
+  margin-bottom: 25px;
+  color: #292929;
+  font-weight: 400;
+  font-size: 16px;
+
+}
+.regular span {
+  color: #8231d6;
+  font-weight: 500;
+}
+
+.header-text {
+  margin:0 !important;
+}
+
+.innerText {
+  padding-top:80px
+}
+
+.primeText {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
