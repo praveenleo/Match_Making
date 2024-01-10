@@ -6,7 +6,7 @@
             "allMatcheslist": [
                 {
                     "id": 1,
-                    "name": "Aadhira",
+                    "name": "Ram",
                     "age": 25,
                     "height": "5'5",
                     "degree": "BE",
@@ -17,7 +17,7 @@
                 },
                 {
                     "id": 2,
-                    "name": "Adya",
+                    "name": "Kumar",
                     "age": 25,
                     "height": "5'5",
                     "degree": "MBA",
@@ -28,7 +28,7 @@
                 },
                 {
                     "id": 3,
-                    "name": "Aasha",
+                    "name": "Prakash",
                     "age": 23,
                     "height": "5'4",
                     "degree": "B.Tech",
@@ -39,7 +39,7 @@
                 },
                 {
                     "id": 4,
-                    "name": "Janusha",
+                    "name": "Govind",
                     "age": 24,
                     "height": "5'3",
                     "degree": "BCA",
@@ -50,7 +50,7 @@
                 },
                 {
                     "id": 5,
-                    "name": "Jaseetha",
+                    "name": "Narendiran",
                     "age": 26,
                     "height": "5'3",
                     "degree": "B.Tech",
@@ -61,7 +61,7 @@
                 },
                 {
                     "id": 6,
-                    "name": "Lakshy",
+                    "name": "Ashok",
                     "age": 27,
                     "height": "5'6",
                     "degree": "M.Tech",
@@ -72,7 +72,7 @@
                 },
                 {
                     "id": 7,
-                    "name": "Lalitha",
+                    "name": "Raj",
                     "age": 26,
                     "height": "5'2",
                     "degree": "BCA",
@@ -83,7 +83,7 @@
                 },
                 {
                     "id": 8,
-                    "name": "Laniya",
+                    "name": "Balaji",
                     "age": 26,
                     "height": "5'2",
                     "degree": "BCA",
@@ -94,7 +94,7 @@
                 },
                 {
                     "id": 9,
-                    "name": "Lavli",
+                    "name": "Rohan",
                     "age": 26,
                     "height": "5'2",
                     "degree": "BCA",
@@ -105,7 +105,7 @@
                 },
                 {
                     "id": 10,
-                    "name": "Leena",
+                    "name": "Jai Akash",
                     "age": 26,
                     "height": "5'2",
                     "degree": "BCA",
@@ -118,7 +118,7 @@
             "newMatchesList": [
                 {
                     "id": 1,
-                    "name": "Luxmi",
+                    "name": "Newton",
                     "age": 30,
                     "height": "5'3",
                     "degree": "M.phil",
@@ -129,7 +129,7 @@
                 },
                 {
                     "id": 2,
-                    "name": "Naadiya",
+                    "name": "Hema",
                     "age": 26,
                     "height": "5'7",
                     "degree": "MBA",
@@ -140,7 +140,7 @@
                 },
                 {
                     "id": 3,
-                    "name": "Keerthiga",
+                    "name": "Vasanth",
                     "age": 23,
                     "height": "5'5",
                     "degree": "B.Tech",
@@ -151,7 +151,7 @@
                 },
                 {
                     "id": 4,
-                    "name": "Srimathi",
+                    "name": "Thiru",
                     "age": 26,
                     "height": "5'3",
                     "degree": "BCA",
@@ -162,7 +162,7 @@
                 },
                 {
                     "id": 5,
-                    "name": "Divya",
+                    "name": "Murugan",
                     "age": 26,
                     "height": "5'6",
                     "degree": "B.Tech",
@@ -173,7 +173,7 @@
                 },
                 {
                     "id": 6,
-                    "name": "Priya",
+                    "name": "Venkatesh",
                     "age": 27,
                     "height": "5'6",
                     "degree": "B.Tech",
@@ -195,7 +195,7 @@
                 },
                 {
                     "id": 8,
-                    "name": "Anushya",
+                    "name": "Nayanthara",
                     "age": 35,
                     "height": "5'4",
                     "degree": "BCA",
@@ -206,7 +206,7 @@
                 },
                 {
                     "id": 9,
-                    "name": "Priya",
+                    "name": "Venkatesh",
                     "age": 24,
                     "height": "5'3",
                     "degree": "BCA",
@@ -217,7 +217,7 @@
                 },
                 {
                     "id": 10,
-                    "name": "Suja",
+                    "name": "Jaffer",
                     "age": 26,
                     "height": "5'4",
                     "degree": "BCA",
@@ -230,7 +230,7 @@
             "premiumList": [
                 {
                     "id": 1,
-                    "name": "Kavina",
+                    "name": "Jamuna",
                     "age": 22,
                     "height": "5'5",
                     "degree": "BA",
@@ -241,7 +241,7 @@
                 },
                 {
                     "id": 2,
-                    "name": "Priya",
+                    "name": "Shalima",
                     "age": 25,
                     "height": "5'5",
                     "degree": "MBA",
@@ -252,7 +252,7 @@
                 },
                 {
                     "id": 3,
-                    "name": "Mounika",
+                    "name": "Prabhu",
                     "age": 23,
                     "height": "5'4",
                     "degree": "B.Tech",
@@ -263,7 +263,7 @@
                 },
                 {
                     "id": 4,
-                    "name": "Chandirka",
+                    "name": "Poonguzhali",
                     "age": 24,
                     "height": "5'3",
                     "degree": "BCA",
@@ -274,7 +274,7 @@
                 },
                 {
                     "id": 5,
-                    "name": "Toshika",
+                    "name": "Sachin",
                     "age": 26,
                     "height": "5'3",
                     "degree": "B.Tech",
@@ -285,7 +285,7 @@
                 },
                 {
                     "id": 6,
-                    "name": "Ramya",
+                    "name": "Priyanka",
                     "age": 27,
                     "height": "5'6",
                     "degree": "M.Tech",
@@ -296,7 +296,7 @@
                 },
                 {
                     "id": 7,
-                    "name": "Sangeetha",
+                    "name": "Diviya",
                     "age": 26,
                     "height": "5'2",
                     "degree": "BCA",
@@ -307,7 +307,7 @@
                 },
                 {
                     "id": 8,
-                    "name": "Mayu",
+                    "name": "Aarthi",
                     "age": 26,
                     "height": "5'2",
                     "degree": "BCA",
@@ -318,7 +318,7 @@
                 },
                 {
                     "id": 9,
-                    "name": "Bavya Sree",
+                    "name": "Veeramani",
                     "age": 26,
                     "height": "5'2",
                     "degree": "BCA",
@@ -329,7 +329,7 @@
                 },
                 {
                     "id": 10,
-                    "name": "Bavya",
+                    "name": "Nanthini",
                     "age": 26,
                     "height": "5'2",
                     "degree": "BCA",
@@ -342,7 +342,7 @@
             "mutualMatches": [
                 {
                     "id": 1,
-                    "name": "Pavithra",
+                    "name": "Dhanuja",
                     "age": 25,
                     "height": "5'5",
                     "degree": "BE",
@@ -353,7 +353,7 @@
                 },
                 {
                     "id": 2,
-                    "name": "Thulasi",
+                    "name": "Sabari",
                     "age": 25,
                     "height": "5'5",
                     "degree": "MBA",
@@ -364,7 +364,7 @@
                 },
                 {
                     "id": 3,
-                    "name": "krishnaveni",
+                    "name": "Nithiya",
                     "age": 23,
                     "height": "5'4",
                     "degree": "B.Tech",
@@ -375,7 +375,7 @@
                 },
                 {
                     "id": 4,
-                    "name": "Aadhira",
+                    "name": "Senthil",
                     "age": 24,
                     "height": "5'3",
                     "degree": "BCA",
@@ -386,7 +386,7 @@
                 },
                 {
                     "id": 5,
-                    "name": "Pavithra",
+                    "name": "Charu",
                     "age": 26,
                     "height": "5'3",
                     "degree": "B.Tech",
@@ -419,7 +419,7 @@
                 },
                 {
                     "id": 8,
-                    "name": "Mounika",
+                    "name": "Sutha",
                     "age": 26,
                     "height": "5'2",
                     "degree": "BCA",
@@ -430,7 +430,7 @@
                 },
                 {
                     "id": 9,
-                    "name": "Sheela",
+                    "name": "Latha",
                     "age": 26,
                     "height": "5'2",
                     "degree": "BCA",
@@ -441,7 +441,7 @@
                 },
                 {
                     "id": 10,
-                    "name": "Bavya",
+                    "name": "Chithra",
                     "age": 28,
                     "height": "5'2",
                     "degree": "BCA",
@@ -452,5 +452,5 @@
                 }
             ]
         }
-   
+
 }

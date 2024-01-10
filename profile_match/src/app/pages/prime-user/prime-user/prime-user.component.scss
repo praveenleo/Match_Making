@@ -31,12 +31,13 @@
 .prime li::before {
   content: url("../../../../assets/images/star.png");
   position: absolute;
-  left: 18px;
+  left: 27px;
 }
 .prime img {
   float: right;
   margin-top: 30px;
   margin-right: 20px;
+  width: 15px;
 }
 .regular {
   background: #fff;
@@ -86,3 +87,7 @@ h6 {
   font-size: 1rem;
 }
 
+.fw-bold {
+  font-weight: 500;
+  margin-bottom:2px;
+}

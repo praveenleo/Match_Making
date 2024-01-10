@@ -1,82 +1,100 @@
 <section class="main_sec">
   <div class="header_bg">
-      <div class="tabs">
-          <button class="yesbutton" mat-raised-button>Regular</button>
-          <button class="confirmbutton prime-btn" mat-button (click)="redirectToPrime()">Prime</button>
-      </div>
+    <div class="tabs">
+      <button class="yesbutton" mat-raised-button>Regular</button>
+      <button class="confirmbutton prime-btn" mat-button (click)="redirectToPrime()">Prime</button>
+    </div>
 
-      <mat-toolbar color="secondary" class="scrollfix sticky-toolbar">
-          <!-- <mat-nav-list class="list-horizontal"> -->
-              <mat-list-item class="navItems">
-                  <button mat-menu-item id="allMatcheslist"  class="" [ngClass]="activeItem==='allMatcheslist' ? 'active-menu' : ''" (click)="getProfileList('allMatcheslist')">All<br>Matches</button>
-              </mat-list-item>
-              <mat-list-item class="navItems">
-                  <button mat-menu-item id="newMatchesList" [ngClass]="activeItem==='newMatchesList' ? 'active-menu' : ''" (click)="getProfileList('newMatchesList')">New Matches</button>
-              </mat-list-item>
-              <mat-list-item class="navItems">
-                  <button mat-menu-item id="premiumList" [ngClass]="activeItem==='premiumList' ? 'active-menu' : ''" (click)="getProfileList('premiumList')">Premium Members</button>
-              </mat-list-item>
-              <mat-list-item class="navItems">
-                  <button mat-menu-item id="mutualMatches" [ngClass]="activeItem==='mutualMatches' ? 'active-menu' : ''" (click)="getProfileList('mutualMatches')">Mutual Matches</button>
-              </mat-list-item>
-          <!-- </mat-nav-list> -->
-      </mat-toolbar>
-      <h4>{{profileMatchingInfo.matched | number}} Matches based on your preferences</h4>
-      <div class="opt_btn">
-          <button class="yesbutton" mat-raised-button>{{profileMatchingInfo.yetToView | number}} Yet To View</button>
-          <button class="confirmbutton" mat-button>{{profileMatchingInfo.viewed | number}} Viewed</button>
-      </div>
-      <div class="match_list">
-        <div class="row">
-            <div class="col-8">
-                <h4>{{profileMatchingInfo.yetToView | number}} Matches Yet To View</h4>
-              </div>
-              <div class="col-4 icons">
-                <i class="fa fa-sliders" aria-hidden="true"></i>
-                <i class="fa fa-cog" aria-hidden="true"></i>
-              </div>
-              <p class="premiumIcon"><i class="fa fa-info" aria-hidden="true"></i> Only premium members can view full names</p>
+    <mat-toolbar color="secondary" class="scrollfix sticky-toolbar">
+      <mat-list-item class="navItems">
+        <button mat-menu-item id="allMatcheslist" class=""
+          [ngClass]="activeItem==='allMatcheslist' ? 'active-menu' : ''"
+          (click)="getProfileList('allMatcheslist')">All<br>Matches</button>
+      </mat-list-item>
+      <mat-list-item class="navItems">
+        <button mat-menu-item id="newMatchesList" [ngClass]="activeItem==='newMatchesList' ? 'active-menu' : ''"
+          (click)="getProfileList('newMatchesList')">New Matches</button>
+      </mat-list-item>
+      <mat-list-item class="navItems">
+        <button mat-menu-item id="premiumList" [ngClass]="activeItem==='premiumList' ? 'active-menu' : ''"
+          (click)="getProfileList('premiumList')">Premium Members</button>
+      </mat-list-item>
+      <mat-list-item class="navItems">
+        <button mat-menu-item id="mutualMatches" [ngClass]="activeItem==='mutualMatches' ? 'active-menu' : ''"
+          (click)="getProfileList('mutualMatches')">Mutual Matches</button>
+      </mat-list-item>
+    </mat-toolbar>
+    <h4>{{profileMatchingInfo.matched | number}} Matches based on your preferences</h4>
+    <div class="opt_btn">
+      <button class="btnView" mat-raised-button [ngClass]="{'active': activeButton === 'yetToView'}"
+        (click)="setActiveButton('yetToView')">
+        {{profileMatchingInfo.yetToView | number}} Yet To View
+      </button>
+      <button class="btnView" mat-button [ngClass]="{'active': activeButton === 'viewed'}"
+        (click)="setActiveButton('viewed')">
+        {{profileMatchingInfo.viewed | number}} Viewed
+      </button>
+    </div>
+    <div class="match_list">
+      <div class="row">
+        <div class="col-8">
+          <h4> Matches Yet To View</h4>
         </div>
-        <div class="card-wrapper" *ngFor="let item of profileList; index as i">
-
-            <div class="card-custom">
-                <div class="card-imgage">
-                    <img class="card-img" src="https://picsum.photos/200/200?image={{ i + imgCount}}" alt="Card image cap">
-                    <div class="bgfocus"></div>
-                </div>
-                <div class="card-description">
-                    <div class="verif_sec">
-                        <ul>
-                            <li class="verifi_opt"><img src="../../../assets/images/shield1.png" alt="img" /> Verified</li>
-                            <li *ngIf="item.isPrimeUser" class="prime_opt"><img src="../../../assets/images/badge.png" alt="img" /> Prime Platinum</li>
-                        </ul>
-                    </div>
-                    <h3 class="card-title" id="blur">{{item.name}}</h3>
-                    <h5 class="card-text">{{item.age}} yrs, {{item.height}}", {{item.degree}}, {{item.caste}}, {{item.city}}, {{item.state}}</h5>
-
-                </div>
-            </div>
-            <ul class="share">
-                <li><img src="../../../assets/images/whatsapp.png" alt="img" /> Whatsapp</li>
-                <li><img src="../../../assets/images/private.png" alt="img" /> Don't Show</li>
-                <li><img src="../../../assets/images/star2.png" alt="img" /> Shortlist</li>
-            </ul>
-            <div class="link_sec">
-                <p> Like her Profile? Connect Now
-                    <button><img src="../../../assets/images/basic-tick.png" alt="img" /></button>
-                </p>
-            </div>
+        <div class="col-4 icons">
+          <i class="fa fa-sliders" aria-hidden="true"></i>
+          <i class="fa fa-cog" aria-hidden="true"></i>
         </div>
+        <p class="premiumIcon"><i class="fa fa-info" aria-hidden="true"></i> Only premium members can view full names
+        </p>
+      </div>
+      <div class="card-wrapper" *ngFor="let item of profileList; index as i">
+
+        <div class="card-custom">
+          <div class="card-imgage">
+            <img class="card-img" src="https://picsum.photos/200/200?image={{ i + imgCount}}" alt="Card image cap">
+            <div class="bgfocus"></div>
+            <div class="rating-overlay">
+            </div>
+          </div>
+
+          <div class="card-description">
+            <div class="verif_sec">
+              <ul>
+                <li class="verifi_opt"><img src="../../../assets/images/shield1.png" alt="img" />
+                  <span class="verfied-icon">Verified</span>
+                </li>
+                <li *ngIf="item.isPrimeUser" class="prime_opt"><img src="../../../assets/images/badge.png" alt="img" />
+                  <span class="verfied-icon"> Prime Platinum</span>
+                </li>
+              </ul>
+            </div>
+            <h3 class="card-title" id="blur">{{item.name}}</h3>
+            <h5 class="card-text">{{item.age}} yrs, {{item.height}}", {{item.degree}}, {{item.caste}}, {{item.city}},
+              {{item.state}}</h5>
+
+          </div>
+        </div>
+        <ul class="share">
+          <li><img src="../../../assets/images/whatsapp.png" alt="img" /> Whatsapp</li>
+          <li><img src="../../../assets/images/private.png" alt="img" /> Don't Show</li>
+          <li><img src="../../../assets/images/star2.png" alt="img" /> Shortlist</li>
+        </ul>
+        <div class="link_sec">
+          <p> Like her Profile? <span class="fs-2">Connect Now</span>
+            <button><img src="../../../assets/images/basic-tick.png" alt="img" /></button>
+          </p>
+        </div>
+      </div>
 
     </div>
     <div class="copyright">
-        <ul class="bottomfix">
-            <li><img src="../../../assets/images/home.png" alt="img" /> Home</li>
-            <li class="active"><img src="../../../assets/images/mathces.png" alt="img" />Matches</li>
-            <li><img src="../../../assets/images/mailbox.png" alt="img" />Mailbox</li>
-            <li><img src="../../../assets/images/notifications.png" alt="img" />Notifications</li>
-            <li><img src="../../../assets/images/search.png" alt="img" />Search</li>
-        </ul>
+      <ul class="bottomfix">
+        <li><img src="../../../assets/images/home.png" alt="img" class="img-icon" /> Home</li>
+        <li class="active"><img src="../../../assets/images/mathces.png" alt="img" class="img-icon" />Matches</li>
+        <li><img src="../../../assets/images/mailbox.png" alt="img" class="img-icon" />Mailbox</li>
+        <li><img src="../../../assets/images/notifications.png" alt="img" class="img-icon" />Notifications</li>
+        <li><img src="../../../assets/images/search.png" alt="img" class="img-icon" />Search</li>
+      </ul>
     </div>
   </div>
 </section>
